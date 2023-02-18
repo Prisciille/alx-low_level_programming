@@ -7,18 +7,18 @@
  */
 int main(void)
 {
-	int lower;
+	int l;
 
-	for (lower = 97; lower <= 122; lower++)
+	for (l = 97; l <= 122; l++)
 	{
-		putchar(lower);
+		putchar(l);
 	}
 
-	int upper;
+	int u;
 
-	for (upper = 65; upper <= 90; upper++)
+	for (u = 65; u <= 90; u++)
 	{
-		putchar(upper);
+		putchar(u);
 	}
 	putchar('\n');
 
